@@ -1,3 +1,6 @@
+
+
+
 // Prime number
 /*
 function prime(x) {
@@ -46,7 +49,7 @@ function prime(x) {
     }
 
 
-} console.log(prime(15))
+} console.log(prime(10))
 
 
 
