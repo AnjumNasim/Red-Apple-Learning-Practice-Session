@@ -13,13 +13,23 @@
 
 
 
-let sub = (a,b,catchfunc)=>{
-    catchfunc(a-b);
+// let sub = (a,b,catchfunc)=>{
+//     catchfunc(a-b);
 
-}
+// }
 
-(sub(25,16,function(subtra){
-    console.log(subtra)
+// (sub(25,16,function(subtra){
+//     console.log(subtra)
+// }))
+
+
+
+
+let add =  ((x, y, callfunc)=>{
+    callfunc (x + y);
+})
+
+add(56, 85,((z)=>{
+    console.log(z)
 }))
-
 
